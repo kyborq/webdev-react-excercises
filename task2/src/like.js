@@ -15,5 +15,5 @@ class Like extends React.Component {
   }
 }
 
-const domContainer = document.querySelector('#like');
-ReactDOM.render(React.createElement(Like), domContainer);
+// const domContainer = document.querySelector('#like');
+// ReactDOM.render(React.createElement(Like), domContainer);

@@ -2,10 +2,10 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './src/phone.js',
+  entry: './src/app.js',
   output: {
     path: path.join(__dirname, '/dist'),
-    filename: 'phone-bundle.js'
+    filename: 'app-bundle.js'
   },
   module: {
     rules: [
